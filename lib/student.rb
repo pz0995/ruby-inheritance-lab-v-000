@@ -8,7 +8,7 @@ class Student < User
   end
 
   def learn
-    @knowledge.push(Teacher.KNOWLEDGE)
+    @knowledge << Teacher.KNOWLEDGE.join
   end
 
   def knowledge
