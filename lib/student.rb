@@ -8,6 +8,7 @@ class Student < User
   end
 
   def learn
+    KNOWLEDGE.join
     @knowledge << KNOWLEDGE.join
   end
 
