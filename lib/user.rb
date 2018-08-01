@@ -7,4 +7,3 @@ class User
     @last_name
   end
 end
-end
