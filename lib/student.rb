@@ -7,7 +7,7 @@ class Student < User
     @knowledge = []
   end
 
-  def learn(knowledge)
+  def learn
     @knowledge.push(Teacher.KNOWLEDGE)
   end
 
