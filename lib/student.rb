@@ -5,7 +5,7 @@ class Student < User
   end
 
   def learn
-    @knowledge << string
+    @knowledge << KNOWLEDGE
   end
 
   def knowledge
