@@ -1,4 +1,5 @@
-class Student < User
+class Student
+  include User
   include Teacher
 
   attr_accessor :knowledge, :KNOWLEDGE
